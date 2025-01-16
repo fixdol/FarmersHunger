@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="farmershunger"
+version="1.0"
+displayName="Farmer's Hunger"
+authors="FixedDolphin927"
+
+description="A mod that raises the upper limit of saturation restored"
+[[dependencies.farmershunger]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.farmershunger]]
+modId="minecraft"
+mandatory=true
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
